@@ -1,0 +1,31 @@
+<LinearLayout
+    android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#000"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+    <TextView
+        android:gravity="center"
+        android:text="CALENDAR"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="serif-monospace"
+        android:textSize="30sp"
+        android:layout_marginTop="20dp"
+        />
+    <CalendarView
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"/>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your event"
+        android:inputType="text" />
+   <androidx.appcompat.widget.AppCompatButton
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:background="#FFFFFF"
+       android:text="Save Event"
+       android:textColor="#000"/>
+</LinearLayout>
